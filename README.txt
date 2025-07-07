@@ -97,9 +97,7 @@ For commercial inquiries, please contact: 🔗 LinkedIn: [Hussein Shtia](https:/
 
 ## 🌐 Citation (Optional)
 
-```bibtex
-@misc{WaveMind2025PNP,
-  title={Formal Coq Proof of P \u2260 NP via WaveMind Collapse Reasoning},
+ WaveMind Collapse Reasoning},
   author={Hussein Shtia},
   year={2025},
   url={https://github.com/Husseinshtia1/WaveMind_P_neq_NP_Public}
