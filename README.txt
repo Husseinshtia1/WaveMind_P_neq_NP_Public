@@ -90,7 +90,8 @@ All source files are released for review and academic collaboration under the **
 * ✅ Use for peer review, academic citation, and formal verification is permitted.
 * ❌ Commercial use or redistribution requires explicit written permission from the author.
 
-For commercial inquiries, please contact: **[indextop5@gmail.com](mailto:indextop5@gmail.com)**
+For commercial inquiries, please contact: 🔗 LinkedIn: [Hussein Shtia](https://www.linkedin.com/in/shtia/)
+
 
 ---
 
