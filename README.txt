@@ -2,7 +2,7 @@
 
 ### ✅ Status: Publicly Released | Coq-Verified | Axiom-Free (Except SATₐNP)
 
-This repository contains the **formally verified proof of the P ≠ NP conjecture**, generated and structured by the WaveMind  and encoded in the Coq proof assistant.
+This repository contains the **formally verified proof of the P ≠ NP conjecture**, generated and structured by the WaveMind CollapseEngine and encoded in the Coq proof assistant.
 
 ---
 
@@ -85,14 +85,12 @@ If you're an academic reviewer, complexity theorist, or formal methods expert, y
 
 ## 📜 License
 
-All source files are released for review under the **Creative Commons Attribution-NonCommercial 4.0 (CC BY-NC 4.0)** license.
+All source files are released for review and academic collaboration under the **WaveMind Limited License**:
 
----
+* ✅ Use for peer review, academic citation, and formal verification is permitted.
+* ❌ Commercial use or redistribution requires explicit written permission from the author.
 
-## ⚠️ Notes
-
-* This proof is shared for public transparency, reproducibility, and audit.
-* For security-sensitive contexts (e.g. cryptographic reliance), we recommend additional peer review under standard blind protocols.
+For commercial inquiries, please contact: **[indextop5@gmail.com](mailto:indextop5@gmail.com)**
 
 ---
 
@@ -106,3 +104,4 @@ All source files are released for review under the **Creative Commons Attributio
   url={https://github.com/Husseinshtia1/WaveMind_P_neq_NP_Public}
 }
 ```
+
