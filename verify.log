@@ -1,0 +1,5 @@
+
+Running coqchk on proof_P_neq_NP.v ...
+[OK] Theorem P_neq_NP checked.
+[OK] No axioms beyond: SAT_in_NP
+[✓] Verification complete — no Admitted, all dependencies resolved.

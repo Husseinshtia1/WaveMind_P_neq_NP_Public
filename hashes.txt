@@ -1,0 +1,2 @@
+SHA256 (proof_P_neq_NP.v) = fc2ed904841879c5eedf8ca4e56ee200dffa36c8f82fcc11500ee29928dcd262
+SHA256 (verify.log) = 6cbb1f9ac08d193865c81c7099a287644b996d36f10cb956ee9c06460bcfa47f
