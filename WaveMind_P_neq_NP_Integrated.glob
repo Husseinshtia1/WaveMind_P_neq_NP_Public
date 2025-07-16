@@ -1,0 +1,202 @@
+DIGEST c1095a434410d1cff1c134910e249eb6
+FWaveMind_P_neq_NP_Integrated
+ax 262:262 <> X
+ax 313:313 <> P
+R318:321 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R317:317 WaveMind_P_neq_NP_Integrated <> X defax
+ax 370:371 <> NP
+R376:379 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R375:375 WaveMind_P_neq_NP_Integrated <> X defax
+ax 431:439 <> Reduction
+R444:447 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R443:443 WaveMind_P_neq_NP_Integrated <> X defax
+R449:452 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R448:448 WaveMind_P_neq_NP_Integrated <> X defax
+ax 521:529 <> SAT_in_NP
+R533:539 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R541:542 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 540:540 <> x:5
+R543:544 WaveMind_P_neq_NP_Integrated <> NP defax
+R546:546 WaveMind_P_neq_NP_Integrated <> x:5 var
+ax 611:634 <> P_closed_under_reduction
+binder 645:645 <> x:7
+binder 647:647 <> y:8
+R653:656 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R650:650 WaveMind_P_neq_NP_Integrated <> P defax
+R652:652 WaveMind_P_neq_NP_Integrated <> x:7 var
+R670:673 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R657:665 WaveMind_P_neq_NP_Integrated <> Reduction defax
+R667:667 WaveMind_P_neq_NP_Integrated <> x:7 var
+R669:669 WaveMind_P_neq_NP_Integrated <> y:8 var
+R674:674 WaveMind_P_neq_NP_Integrated <> P defax
+R676:676 WaveMind_P_neq_NP_Integrated <> y:8 var
+ax 739:751 <> NP_has_member
+R755:761 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R763:764 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 762:762 <> y:10
+R765:766 WaveMind_P_neq_NP_Integrated <> NP defax
+R768:768 WaveMind_P_neq_NP_Integrated <> y:10 var
+ax 815:822 <> NP_not_P
+binder 833:833 <> y:12
+R840:843 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R836:837 WaveMind_P_neq_NP_Integrated <> NP defax
+R839:839 WaveMind_P_neq_NP_Integrated <> y:12 var
+R844:845 Coq.Init.Logic <> ::type_scope:'~'_x not
+R846:846 WaveMind_P_neq_NP_Integrated <> P defax
+R848:848 WaveMind_P_neq_NP_Integrated <> y:12 var
+ax 912:925 <> Reduction_refl
+binder 936:936 <> x:14
+R939:947 WaveMind_P_neq_NP_Integrated <> Reduction defax
+R949:949 WaveMind_P_neq_NP_Integrated <> x:14 var
+R951:951 WaveMind_P_neq_NP_Integrated <> x:14 var
+def 1003:1012 <> P_equiv_NP
+binder 1024:1024 <> z:16
+R1030:1034 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1027:1027 WaveMind_P_neq_NP_Integrated <> P defax
+R1029:1029 WaveMind_P_neq_NP_Integrated <> z:16 var
+R1035:1036 WaveMind_P_neq_NP_Integrated <> NP defax
+R1038:1038 WaveMind_P_neq_NP_Integrated <> z:16 var
+prf 1067:1084 <> contradict_P_eq_NP
+R1098:1101 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1088:1097 WaveMind_P_neq_NP_Integrated <> P_equiv_NP def
+R1102:1106 Coq.Init.Logic <> False ind
+R1141:1153 WaveMind_P_neq_NP_Integrated <> NP_has_member prfax
+R1241:1248 WaveMind_P_neq_NP_Integrated <> NP_not_P prfax
+R1241:1248 WaveMind_P_neq_NP_Integrated <> NP_not_P prfax
+prf 1347:1363 <> collapse_step_415
+binder 1374:1374 <> a:17
+binder 1376:1376 <> b:18
+R1385:1388 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1382:1382 WaveMind_P_neq_NP_Integrated <> P defax
+R1384:1384 WaveMind_P_neq_NP_Integrated <> a:17 var
+R1402:1405 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1389:1397 WaveMind_P_neq_NP_Integrated <> Reduction defax
+R1399:1399 WaveMind_P_neq_NP_Integrated <> a:17 var
+R1401:1401 WaveMind_P_neq_NP_Integrated <> b:18 var
+R1410:1413 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1406:1407 WaveMind_P_neq_NP_Integrated <> NP defax
+R1409:1409 WaveMind_P_neq_NP_Integrated <> b:18 var
+R1414:1418 Coq.Init.Logic <> False ind
+R1472:1472 WaveMind_P_neq_NP_Integrated <> P defax
+R1472:1472 WaveMind_P_neq_NP_Integrated <> P defax
+R1489:1512 WaveMind_P_neq_NP_Integrated <> P_closed_under_reduction prfax
+R1489:1512 WaveMind_P_neq_NP_Integrated <> P_closed_under_reduction prfax
+R1539:1546 WaveMind_P_neq_NP_Integrated <> NP_not_P prfax
+R1539:1546 WaveMind_P_neq_NP_Integrated <> NP_not_P prfax
+prf 1605:1634 <> no_valid_reduction_to_np_not_p
+binder 1645:1645 <> x:19
+binder 1647:1647 <> y:20
+R1655:1658 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1652:1652 WaveMind_P_neq_NP_Integrated <> P defax
+R1654:1654 WaveMind_P_neq_NP_Integrated <> x:19 var
+R1663:1666 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1659:1660 WaveMind_P_neq_NP_Integrated <> NP defax
+R1662:1662 WaveMind_P_neq_NP_Integrated <> y:20 var
+R1672:1675 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1667:1668 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1669:1669 WaveMind_P_neq_NP_Integrated <> P defax
+R1671:1671 WaveMind_P_neq_NP_Integrated <> y:20 var
+R1676:1678 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1692:1692 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1679:1687 WaveMind_P_neq_NP_Integrated <> Reduction defax
+R1689:1689 WaveMind_P_neq_NP_Integrated <> x:19 var
+R1691:1691 WaveMind_P_neq_NP_Integrated <> y:20 var
+R1770:1793 WaveMind_P_neq_NP_Integrated <> P_closed_under_reduction prfax
+R1770:1793 WaveMind_P_neq_NP_Integrated <> P_closed_under_reduction prfax
+prf 1841:1855 <> np_not_subset_p
+R1859:1859 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1883:1887 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1860:1866 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1868:1869 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 1867:1867 <> z:21
+R1874:1877 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1870:1871 WaveMind_P_neq_NP_Integrated <> NP defax
+R1873:1873 WaveMind_P_neq_NP_Integrated <> z:21 var
+R1878:1879 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1880:1880 WaveMind_P_neq_NP_Integrated <> P defax
+R1882:1882 WaveMind_P_neq_NP_Integrated <> z:21 var
+R1888:1890 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1912:1912 Coq.Init.Logic <> ::type_scope:'~'_x not
+binder 1898:1898 <> z:22
+R1905:1908 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1901:1902 WaveMind_P_neq_NP_Integrated <> NP defax
+R1904:1904 WaveMind_P_neq_NP_Integrated <> z:22 var
+R1909:1909 WaveMind_P_neq_NP_Integrated <> P defax
+R1911:1911 WaveMind_P_neq_NP_Integrated <> z:22 var
+prf 2030:2054 <> np_not_subset_implies_neq
+R2083:2086 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2058:2060 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2082:2082 Coq.Init.Logic <> ::type_scope:'~'_x not
+binder 2068:2068 <> z:23
+R2075:2078 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2071:2072 WaveMind_P_neq_NP_Integrated <> NP defax
+R2074:2074 WaveMind_P_neq_NP_Integrated <> z:23 var
+R2079:2079 WaveMind_P_neq_NP_Integrated <> P defax
+R2081:2081 WaveMind_P_neq_NP_Integrated <> z:23 var
+R2087:2088 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2089:2098 WaveMind_P_neq_NP_Integrated <> P_equiv_NP def
+prf 2241:2266 <> np_reduce_to_p_contradicts
+binder 2277:2277 <> z:24
+R2286:2289 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2282:2283 WaveMind_P_neq_NP_Integrated <> NP defax
+R2285:2285 WaveMind_P_neq_NP_Integrated <> z:24 var
+R2290:2290 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2321:2325 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 2298:2298 <> x:25
+R2314:2317 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2301:2309 WaveMind_P_neq_NP_Integrated <> Reduction defax
+R2311:2311 WaveMind_P_neq_NP_Integrated <> x:25 var
+R2313:2313 WaveMind_P_neq_NP_Integrated <> z:24 var
+R2318:2318 WaveMind_P_neq_NP_Integrated <> P defax
+R2320:2320 WaveMind_P_neq_NP_Integrated <> x:25 var
+R2326:2330 Coq.Init.Logic <> False ind
+R2387:2388 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2389:2389 WaveMind_P_neq_NP_Integrated <> P defax
+R2387:2388 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2389:2389 WaveMind_P_neq_NP_Integrated <> P defax
+R2405:2412 WaveMind_P_neq_NP_Integrated <> NP_not_P prfax
+R2405:2412 WaveMind_P_neq_NP_Integrated <> NP_not_P prfax
+R2473:2486 WaveMind_P_neq_NP_Integrated <> Reduction_refl prfax
+R2473:2486 WaveMind_P_neq_NP_Integrated <> Reduction_refl prfax
+prf 2520:2552 <> exists_np_not_p_implies_not_equiv
+R2556:2556 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2580:2584 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2557:2563 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2565:2566 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 2564:2564 <> z:26
+R2571:2574 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2567:2568 WaveMind_P_neq_NP_Integrated <> NP defax
+R2570:2570 WaveMind_P_neq_NP_Integrated <> z:26 var
+R2575:2576 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2577:2577 WaveMind_P_neq_NP_Integrated <> P defax
+R2579:2579 WaveMind_P_neq_NP_Integrated <> z:26 var
+R2585:2586 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2587:2596 WaveMind_P_neq_NP_Integrated <> P_equiv_NP def
+prf 2731:2744 <> collapse_final
+R2758:2761 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2748:2757 WaveMind_P_neq_NP_Integrated <> P_equiv_NP def
+R2762:2766 Coq.Init.Logic <> False ind
+R2796:2813 WaveMind_P_neq_NP_Integrated <> contradict_P_eq_NP thm
+R2796:2813 WaveMind_P_neq_NP_Integrated <> contradict_P_eq_NP thm
+prf 2895:2902 <> P_neq_NP
+R2906:2907 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2908:2917 WaveMind_P_neq_NP_Integrated <> P_equiv_NP def
+R2935:2948 WaveMind_P_neq_NP_Integrated <> collapse_final thm
+R2935:2948 WaveMind_P_neq_NP_Integrated <> collapse_final thm
+prf 3068:3084 <> collapse_step_126
+binder 3095:3095 <> x:27
+binder 3097:3097 <> y:28
+R3106:3109 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3103:3103 WaveMind_P_neq_NP_Integrated <> P defax
+R3105:3105 WaveMind_P_neq_NP_Integrated <> x:27 var
+R3123:3126 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3110:3118 WaveMind_P_neq_NP_Integrated <> Reduction defax
+R3120:3120 WaveMind_P_neq_NP_Integrated <> x:27 var
+R3122:3122 WaveMind_P_neq_NP_Integrated <> y:28 var
+R3127:3128 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3129:3130 WaveMind_P_neq_NP_Integrated <> NP defax
+R3132:3132 WaveMind_P_neq_NP_Integrated <> y:28 var
+R3178:3185 WaveMind_P_neq_NP_Integrated <> NP_not_P prfax
+R3178:3185 WaveMind_P_neq_NP_Integrated <> NP_not_P prfax
+R3219:3242 WaveMind_P_neq_NP_Integrated <> P_closed_under_reduction prfax
+R3219:3242 WaveMind_P_neq_NP_Integrated <> P_closed_under_reduction prfax
